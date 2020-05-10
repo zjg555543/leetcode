@@ -5,15 +5,15 @@
 #include <iostream>
 using namespace std;
 
-#include "case/base_list.h"
-#include "case/reverse_list.h"
+#include "case/case.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
 	printf("hello, world");
 
 	//base_list();
-	test_reverse_list();
+	//test_reverse_list();
+	test_reverse_list_between();
 
 	getchar();
 	return 0;

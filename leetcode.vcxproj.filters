@@ -27,10 +27,7 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="case\base_list.h">
-      <Filter>源文件\case</Filter>
-    </ClInclude>
-    <ClInclude Include="case\reverse_list.h">
+    <ClInclude Include="case\case.h">
       <Filter>源文件\case</Filter>
     </ClInclude>
   </ItemGroup>
@@ -45,6 +42,9 @@
       <Filter>源文件\case</Filter>
     </ClCompile>
     <ClCompile Include="case\reverse_list.cpp">
+      <Filter>源文件\case</Filter>
+    </ClCompile>
+    <ClCompile Include="case\reverse_list_2.cpp">
       <Filter>源文件\case</Filter>
     </ClCompile>
   </ItemGroup>
